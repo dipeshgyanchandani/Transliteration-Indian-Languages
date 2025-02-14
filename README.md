@@ -53,7 +53,7 @@ PyTorch
 TensorFlow (if you plan to use pre-trained models)
 YOLO (for object detection, if you're using it)
 Clone the Repository
-git clone https://github.com/your-username/Signboard-Translation.git
+git clone https://github.com/dipeshgyanchandani/Transliteration-Indian-Languages.git
 cd Signboard-Translation
 Environment Setup
 Create a virtual environment:

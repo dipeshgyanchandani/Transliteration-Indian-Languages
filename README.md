@@ -74,9 +74,6 @@ YOLO for object detection and text extraction.
 PyTorch for model development.
 LSTM for handling sequence-to-sequence tasks.
 TensorFlow for any additional models used.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Next Steps
 

@@ -74,3 +74,22 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/dipeshgyanchandani/Transliteration-Indian-Languages.git
 cd Signboard-Translation
+
+### **Next Steps**
+
+1. **Integrate the Models into a Web or Mobile Application**  
+   You can integrate the object detection, image captioning, and transliteration models into a web or mobile application. For example:
+   - Use **React Native** to develop a mobile application.
+   - Set up a **Django backend** to handle the image upload, object detection, text extraction, and transliteration processes in real-time.
+
+2. **Fine-Tune the Models with More Data**  
+   To improve the accuracy of the models and handle more diverse input scenarios (e.g., various fonts, languages, or noisy images):
+   - Fine-tune the object detection, image captioning, and transliteration models with a larger and more diverse dataset.
+   - This will improve the model's generalization and performance across different signboards and languages.
+
+3. **Extend the Transliteration Model to Support More Languages**  
+   Expand the current transliteration model to support transliteration between additional language pairs, such as:
+   - English ↔ Spanish
+   - Hindi ↔ Marathi
+   - Hindi ↔ Punjabi, etc.
+   - You can also explore integrating this model with additional language datasets to support transliteration of multiple languages.

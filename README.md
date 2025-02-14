@@ -69,12 +69,6 @@ Ensure you have the following installed:
 - TensorFlow (if you plan to use pre-trained models)
 - YOLO (for object detection, if you're using it)
 
-### **Clone the Repository**
-
-```bash
-git clone https://github.com/dipeshgyanchandani/Transliteration-Indian-Languages.git
-cd Signboard-Translation
-
 ### **Next Steps**
 
 1. **Integrate the Models into a Web or Mobile Application**  
@@ -93,3 +87,22 @@ cd Signboard-Translation
    - Hindi ↔ Marathi
    - Hindi ↔ Punjabi, etc.
    - You can also explore integrating this model with additional language datasets to support transliteration of multiple languages.
+
+4. **Real-World Testing**  
+   Once the models are integrated into an app or service, conduct real-world testing with users to:
+   - Measure accuracy in different environments.
+   - Collect user feedback for improvements in the app's UI/UX and model performance.
+
+5. **Deploy the Application**  
+   After successful testing, deploy the mobile or web application for real-time usage:
+   - Set up cloud services to host the backend (e.g., AWS, Google Cloud, etc.).
+   - Use mobile app deployment tools (e.g., App Store, Google Play) for wider user reach.
+
+By implementing these steps, you can enhance the functionality of your transliteration system and bring it to practical use.
+
+### **Clone the Repository**
+
+```bash
+git clone https://github.com/dipeshgyanchandani/Transliteration-Indian-Languages.git
+cd Signboard-Translation
+

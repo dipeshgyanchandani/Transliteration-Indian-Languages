@@ -35,16 +35,7 @@ The **Seq2Seq (Sequence-to-Sequence) Encoder-Decoder model** with **LSTM (Long S
 ## **System Design**
 
 The system design of the transliteration and image captioning pipeline is as follows:
-[Image Upload] 
-      |
-[Object Detection (YOLO)] 
-      |
-[Text Extraction (Image Captioning Model)] 
-      |
-[Transliteration Model (Seq2Seq LSTM)] 
-      |
-[Transliterated Text]
-
+<img width="882" alt="Screenshot 2025-02-14 at 1 39 23 AM" src="https://github.com/user-attachments/assets/452b66f6-60c9-45ed-8db2-bad5605e362f" />
 
 ### **Flow Overview:**
 
@@ -56,8 +47,6 @@ The system design of the transliteration and image captioning pipeline is as fol
 4. **Transliteration**:
    - The extracted text is sent to the **transliteration model (Seq2Seq LSTM)** for converting it from **English** to **Hindi** (or vice versa).
 5. **Output**: The transliterated text is returned.
-
-### **System Design Diagram**
 
 
 ### **Technologies Used:**

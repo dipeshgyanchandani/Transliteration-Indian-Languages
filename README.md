@@ -8,12 +8,15 @@ This repository contains the implementation of two key components aimed at solvi
 This model detects and extracts text from images of signboards. It uses an object detection framework, specifically YOLO, to identify text regions in images. The text is then passed to the image captioning model, which generates a readable string.
 
 Object Detection (YOLO): Detects the text regions in the image.
+
 Image Captioning Model: Converts the detected text regions into a readable format (string).
-Technology Stack:
+
+## Technology Stack:
 YOLO for text detection
 PyTorch for training and deploying the model
 Python for data preprocessing and model development
-2. Transliteration Model
+
+## 2. Transliteration Model
 The Seq2Seq (Sequence-to-Sequence) Encoder-Decoder model with LSTM (Long Short-Term Memory) architecture is used to perform transliteration between English and Hindi. The model is designed to handle long-range dependencies and improve the accuracy of transliteration using an attention mechanism.
 
 ## Seq2Seq Model: Encodes the input sequence and decodes it to the desired output sequence.
